@@ -8,17 +8,24 @@ In short, we'll want
 
 For these, you'll need an apple account:
 - Linux? Xtools (my beloved)
-- Mac/Windows - Sideloadly 
-	- ... When I am not lazy maybe I will look into making better OSS alternatives who knows
+- Sideloader - Sideloadly, https://github.com/Samadaeus/plumeimpactor (untested), https://github.com/claration/Impactor
 - Some app extractor, i like https://github.com/londek/ipadecrypt.
 	
 ### Jailbreaking
+
+- Untethered
+- Semi-Untethered
+- Semi-Tethered
+- Tethered
+
 Macbook:
 If you don't have an iOS device, you can use https://github.com/Lakr233/vphone-cli to automatically install a jailbroken device. And it's modern iOS! I cannot guarantee it's "exactly" the same as an actual device
 
 iOS Requirements:
 
-
+### Tangent:
+What even is a jailbreak?
+Here are my slightly fangirly notes about them: [[opt_what_even_is_a_jb]]
 
 ### Frida
 

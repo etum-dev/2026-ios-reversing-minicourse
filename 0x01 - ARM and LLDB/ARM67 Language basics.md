@@ -87,7 +87,11 @@ func printMessage(){
 </details>
 
 Another thing to keep track of are function prologues and epilogues. Those are executed as the name suggests, between functions.
-
+push {r4-r7, lr} // save LR, R7, R4-R6 
+add r7, sp, #12 // adjust R7 to point to saved R7 
+push {r8, r10, r11} // save remaining GPRs (R8, R10, R11) 
+vstmdb sp!, {d8-d15} // save VFP/Advanced SIMD registers
+D8 sub sp, sp, #36 // allocate space for local storage
 
 ## Some exercises
 No arm device? try https://www.unicorn-engine.org/
