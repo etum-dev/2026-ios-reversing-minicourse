@@ -17,3 +17,9 @@ process connect connect.//<ip>:6666
 
 Get debugserver:
 - hdiutil mount /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/16.0/DeveloperDiskImage.dmg
+
+LLDB utils:
+https://github.com/etum-dev/LLDB
+Fork will (eventually) be updated to be more ARM focused and probably replace x64/x86
+
+

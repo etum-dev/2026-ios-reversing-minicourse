@@ -99,3 +99,9 @@ No arm device? try https://www.unicorn-engine.org/
 I can also recommend https://pwn.college/xnu/intro-to-arm/. It was really fun :)
 
 Use register x18 and see hwat happens idk https://developer.apple.com/documentation/xcode/writing-arm64-code-for-apple-platforms
+
+
+https://github.com/firmianay/Life-long-Learner/blob/master/practical-reverse-engineering/RE_Learning_ARM.md
+
+Arm has had their fair share of identity crisis:
+https://stackoverflow.com/questions/28669905/what-is-the-difference-between-the-arm-thumb-and-thumb-2-instruction-encodings
