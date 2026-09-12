@@ -10,31 +10,39 @@ the full course is available here, but during the event, there's not much time g
 if you are an on-site attendee i'd recommend you hop back here later for more in-depth info.
 
 1. 
-   1.1 Basics of ARM
-   1.2 Mach-O vs ELF
+   1.1 Basics of iOS and this material, high level
+   1.2 Setup
+      - Jailbreaking & Jailbreak tangent
+      - iOS Security Features
+      - Hands-on tooling setup
 
-2. Apple/iOS Fundamentals
-   2.1 Jailbreaking (and historical JB tangent)
-   2.2 Apples app framework
-   2.3 iOS security features
    
-3. Testing env.
+3. ARM and LLDB
+  2.1 ARM basics
+   2.2 LLDB Basics
+      + LLDB hands-on
 
-5. Swift/Objective-C Apps
+4. Gruesome iOS anatomical dissection (*WIP*)
+   3.1 Swift, ObjC-Primer
+   3.2 Flutter
+   3.3 React-native
+   3.4 Hands-on app extraction and disassembly
+   
+5. Apple/iOS App bugs (*WIP*)
+  5.0 Reverse engineering to find bugs
+  5.1 Dynamic analysis with Frida
+  5.2 Writing Frida Scripts and Objection (With a lot of Phoenix Wright memes)
+  5.3 Hands-on CTF App
+   
+6. Apple/iOS firmware bugs (*WIP*)
+  6.0 iOS kernel+platform primer
+  6.1 Exploit development in iOS
+  6.2 Hands on CVE patch diffing
+   - iPSW crash course
+  
 
-6. Framework apps
-   5.1 React Native
-   5.2 Flutter
    
-7. Debugging
-   
-8. Reverse Engineering and Analysis
-   7.1 My (non expertise) disassembler overview
-     7.1.1 Hopper, Cutter, r2, Ghidra table and explanation
-   7.x IPA extraction
-   7.x Analyzing react native and flutter
-   7.x IPSW cc
-   7.x Practical - Reverse engineering different apps
+
 
 
 
