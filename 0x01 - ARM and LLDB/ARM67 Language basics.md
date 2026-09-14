@@ -10,15 +10,21 @@ The basic syntax is:
 `<OPERATION> <LOCATION> <VALUE>` 
 There may be additional parameters depending on operation, like some mathematical operations etc.
 
+### Security levels
+ARM follows a permission model where highest level (EL3) is the highest privilege.
+EL0 = Userspace
+EL1 = OS Kernel
+EL2 = Hypervisor
+EL3 = Secure Monitor
+
 ### Registers
 
 If you don't know what a register is, you can kind of see it as a little space of memory for the CPU process to keep track of values.
 
-ARM has 31 general purpose registers (from x0 to x30).
+ARM has 31 general purpose registers (from x0 to x30), and about 13k instructions.
 
-The most fundamental ones to know about:
-- SP - Stack pointer
-- PC - Program Counter, this holds addresses for the next instruction.
+iOS interestingly has a few hidden instructions too, such as APRR and KTRR. yay, Easter eggs!
+
 
 And these are typically operated on: 
 - x0-x7 - General purpose
@@ -187,6 +193,8 @@ ARM64 ASM only software for android:
 https://github.com/VegaASM/VAIS
 
 Some ARM syntax sanity checks: https://www.davespace.co.uk/arm/introduction-to-arm/immediates.html
+
+List of all teh instructions: https://support.arm.com/documentation/ddi0596/2021-03/Base-Instructions?lang=en
 
 ________
 [^1]: https://passlab.github.io/ITSC3181/notes/lecture02_CompilationAssemblingLinkingProgramExecution.pdf
